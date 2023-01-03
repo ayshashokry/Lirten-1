@@ -1,0 +1,146 @@
+.contactus .joinform {
+  width: 60vw;
+}
+@media (max-width: 500px) {
+  .contactus .joinform {
+    width: 85vw;
+  }
+}
+.dropdown:hover .dropdown-toggle {
+  background-color: #060157;
+}
+.dropdown:hover .dropdown-item {
+  color: #fff;
+}
+.show > .customButton:focus {
+  background-color: #060157;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.dropdown-toggle {
+  outline: none !important;
+  box-shadow: none !important;
+  width: 100%;
+  height: 60px;
+  font-size: 18px;
+  font-family: 'Montserrat';
+  text-align: left;
+  background-color: #060157;
+  border: 2px solid #000 !important;
+}
+.dropdown-menu {
+  width: 100%;
+  background-color: #060157;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+
+.background {
+  background-color: #060067;
+}
+.applyNow {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 71px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  font-variant: small-caps;
+
+  color: #ffffff;
+}
+.fields:focus {
+  background-color: #060157 !important;
+  color: white;
+  box-shadow: none!important;
+  outline: none !important;
+}
+.fields {
+  color: white;
+  background-color: #060157;
+}
+
+
+.submitButton {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  width: 10vw;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  background-color: white;
+  color: #060067;
+}
+.date ::placeholder {
+  color: white;
+}
+.fields::-webkit-input-placeholder {
+  color: white;
+}
+.topDots {
+  position: absolute;
+  top: 8%;
+  right: 82%;
+  width: 100px;
+  height: 25px;
+}
+.note {
+  color: white;
+  margin-top: 140px;
+  margin-left: -75px;
+  font-size: 20px;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 100% !important;
+}
+
+.Formbtn {
+  height: 60px;
+  color: #060067;
+  background-color: white;
+  padding: 5px 20px;
+  border-radius: none;
+  font-size: 20px;
+  width: 590px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.upload-btn-wrapper input[type='file'] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+.rdatez .cal-icon {
+  fill: #fff;
+}
+.submitButton:hover {
+  color: #060157 !important;
+  background-color: white !important;
+  border-color: black !important;
+}
+
+/* Change the white to any color ;) */
+.fields:-webkit-autofill,
+.fields:-webkit-autofill:hover, 
+.fields:-webkit-autofill:focus, 
+.fields:-webkit-autofill:active  {
+    box-shadow: 0 0 0 30px #060157 inset !important;
+    -webkit-text-fill-color: white !important;
+}

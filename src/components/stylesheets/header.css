@@ -1,0 +1,335 @@
+.webp .header {
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background-image: url('https://lirtenwebsite.s3.me-south-1.amazonaws.com/headerbackground.webp');
+  background-position: center;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+}
+.no-webp .header {
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  /* background-image: url('https://lirtenwebsitepng.s3.me-south-1.amazonaws.com/header-bg.png'); */
+  background-image: url('https://lirtenwebsitepng.s3.me-south-1.amazonaws.com/trial.jpf');
+  background-position: center;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+}
+.header h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 51px;
+  text-align: center;
+
+  font-variant: small-caps;
+  margin-top: 100px;
+  color: #ffffff;
+}
+
+.title p {
+  /* position: absolute;
+  left: 50%;
+  top: 48%;
+  transform: translate(-50%, -48%); */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 39px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.title button {
+  /* position: absolute;
+  left: 50%;
+  top: 57%;
+  transform: translate(-50%, 57%); */
+  background: #d0ad5e;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  font-variant: small-caps;
+  border-radius: 0% !important;
+  color: #ffffff;
+  border: none !important;
+}
+.title button:hover {
+  background: #d0ad5e;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  outline: none !important;
+
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  font-variant: small-caps;
+  border-radius: 0% !important;
+  color: #ffffff;
+  border: none !important;
+}
+.title button:focus {
+  outline: none !important;
+}
+.title button:active {
+  background: #d0ad5e !important;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  font-variant: small-caps;
+  border-radius: 0% !important;
+  color: #ffffff;
+  border: none !important;
+}
+.webp .header:before {
+  content: url('https://lirtenwebsite.s3.me-south-1.amazonaws.com/headervectors.webp');
+  z-index: 1;
+  position: absolute;
+  top: 120px;
+  right: 200px;
+  width: 40px;
+  height: 40px;
+}
+.no-webp .header:before {
+  content: url('https://lirtenwebsitepng.s3.me-south-1.amazonaws.com/goldeLine.png');
+  z-index: 1;
+  position: absolute;
+  top: 120px;
+  right: 200px;
+  width: 40px;
+  height: 40px;
+}
+.header img {
+  width: 180px;
+  height: 27.9px;
+  margin-left: 200px;
+}
+.socials {
+  text-align: right !important;
+  /* margin-right: 160px;
+  margin-top: 150px; */
+  position: absolute;
+  right: 30px;
+  bottom: 10px;
+}
+.socials a {
+  font-size: 26px;
+  /* float: right; */
+  /* text-align: right !important; */
+  color: white !important;
+}
+
+.offer {
+  position: relative;
+}
+
+.webp .offer::after {
+  background-image: url('https://lirtenwebsite.s3.me-south-1.amazonaws.com/headerbigvector.webp');
+  position: absolute;
+  background-size: 100% 100%;
+  /* display: inline-block; */
+  width: 200px;
+  height: 350px;
+  content: '';
+  top: -290px;
+  left: 100px;
+}
+
+.no-webp .offer::after {
+  background-image: url('https://lirtenwebsitepng.s3.me-south-1.amazonaws.com/Vector.png');
+  position: absolute;
+  background-size: 100% 100%;
+  /* display: inline-block; */
+  width: 200px;
+  height: 350px;
+  content: '';
+  top: -290px;
+  left: 100px;
+}
+.webp .offer::before {
+  background-image: url('https://lirtenwebsite.s3.me-south-1.amazonaws.com/headersmallvector.webp');
+  position: absolute;
+  background-size: 100% 100%;
+  /* display: inline-block; */
+  width: 130px;
+  height: 140px;
+  content: '';
+  top: -80px;
+  left: 250px;
+}
+.nowebp .offer::before {
+  background-image: url('https://lirtenwebsitepng.s3.me-south-1.amazonaws.com/Vector-1.png');
+  position: absolute;
+  background-size: 100% 100%;
+  /* display: inline-block; */
+  width: 130px;
+  height: 140px;
+  content: '';
+  top: -80px;
+  left: 250px;
+}
+
+@media (max-width: 820px) and (min-width: 544px) {
+  .webp .offer::after {
+    background-image: url('https://lirtenwebsite.s3.me-south-1.amazonaws.com/headerbigvector.webp');
+    position: absolute;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 170px;
+    content: '';
+    top: -120px;
+    left: 50px;
+  }
+
+  .no-webp .offer::after {
+    background-image: url('https://lirtenwebsitepng.s3.me-south-1.amazonaws.com/Vector.png');
+    position: absolute;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 170px;
+    content: '';
+    top: -120px;
+    left: 50px;
+  }
+
+  .webp .offer::before {
+    background-image: url('https://lirtenwebsite.s3.me-south-1.amazonaws.com/headersmallvector.webp');
+    position: absolute;
+    background-size: 100% 100%;
+    width: 50px;
+    height: 100px;
+    content: '';
+    top: -50px;
+    left: 30px;
+    transform: rotate(3.5deg);
+  }
+  .no-webp .offer::before {
+    background-image: url('https://lirtenwebsitepng.s3.me-south-1.amazonaws.com/Vector-1.png');
+    position: absolute;
+    background-size: 100% 100%;
+    width: 50px;
+    height: 100px;
+    content: '';
+    top: -50px;
+    left: 30px;
+    transform: rotate(3.5deg);
+  }
+  .webp .header::before {
+    content: url('https://lirtenwebsite.s3.me-south-1.amazonaws.com/headervectors.webp');
+    z-index: 1;
+    position: absolute;
+    top: 100px;
+    width: 40px;
+    height: 40px;
+    right: 20px;
+  }
+  .no-webp .header::before {
+    content: url('https://lirtenwebsitepng.s3.me-south-1.amazonaws.com/goldeLine.png');
+    z-index: 1;
+    position: absolute;
+    top: 100px;
+    width: 40px;
+    height: 40px;
+    right: 20px;
+  }
+}
+
+@media (max-width: 543px) {
+  .header h1 {
+    /* position: absolute;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%, -30%); */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 51px;
+    text-align: center;
+
+    font-variant: small-caps;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  .title p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 39px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .offer::after {
+    display: none;
+  }
+
+  .offer::before {
+    display: none;
+  }
+  .socials {
+    text-align: center !important;
+    /* margin: auto !important; */
+    position: unset;
+    margin-top: 25px;
+  }
+
+  .header::before {
+    display: none;
+  }
+}
+
+.buttonRow {
+  margin-top: 50px;
+}
+
+@media (max-width: 520px) {
+  .buttonRow {
+    margin-top: 10px;
+  }
+  .header img {
+    width: 180px;
+    height: 27.9px;
+    margin-left: 100px;
+  }
+}
+
+.joinLink {
+  border: solid 1px #d0ad5e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: right;
+  margin-right: 80px;
+}
+
+@media (max-width: 700px) {
+  .joinLink {
+    display: block !important;
+    text-align: center !important;
+    float: unset;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: unset;
+    margin-right: unset;
+    border: unset;
+  }
+}

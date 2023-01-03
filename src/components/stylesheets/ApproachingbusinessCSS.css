@@ -1,0 +1,50 @@
+/* .approachingbusiness{
+    background-color: #060067; 
+} */
+
+.approachingbusiness h2,
+h5,
+h6 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  align-items: center;
+  font-variant: small-caps;
+  color: #ffffff;
+}
+.dots {
+  position: absolute;
+  top: 74%;
+  right: 25%;width: 100px;height: 25px;
+}
+
+@media (width: 320px) {
+  .approachingbusiness h2,
+  h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    align-items: center;
+    font-variant: small-caps;
+    color: #ffffff;
+  }
+
+  .sectionspace {
+    margin-top: 100px;
+  }
+}
+
+hr {
+  background-color: white;
+  width: 50px;
+  height: 3px;
+  margin-top: 0px !important;
+}
+
+@media (max-width: 500px) {
+  .dots {
+    display: none;
+  }
+}

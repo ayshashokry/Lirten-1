@@ -1,0 +1,75 @@
+.who h5 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  font-variant: small-caps;
+  color: #000000;
+}
+.lineholder
+{
+    font-family: "Montserrat";
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 39px;
+
+color: #000000;
+}
+.webp .lineholder::after {
+  content: url('https://lirtenwebsite.s3.me-south-1.amazonaws.com/line.webp');
+  position: absolute;
+  top: 90px;
+  left: 20px;
+}
+
+
+.no-webp .lineholder::after {
+  content: url('https://lirtenwebsitepng.s3.me-south-1.amazonaws.com/line.png');
+  position: absolute;
+  top: 90px;
+  left: 20px;
+}
+
+@media(max-width:400px)
+{
+    .who h5 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        /* identical to box height */
+      
+        display: flex;
+        align-items: center;
+        font-variant: small-caps;
+        color: #000000;
+      }
+      .lineholder
+      {
+          font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 39px;
+      
+      color: #000000;
+      }
+      .webp .lineholder::after {
+        content: url('https://lirtenwebsite.s3.me-south-1.amazonaws.com/line.webp');
+        position: absolute;
+        top: 90px;
+        left: 20px;
+      }
+      
+      .no-webp .lineholder::after {
+        content: url('https://lirtenwebsitepng.s3.me-south-1.amazonaws.com/line.png');
+        position: absolute;
+        top: 90px;
+        left: 20px;
+      }
+}

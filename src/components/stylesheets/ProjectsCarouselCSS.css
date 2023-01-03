@@ -1,0 +1,317 @@
+.slide1Item {
+  position: relative;
+  height: 100vh !important;
+  width: 100% !important;
+}
+
+.webp .slide1Img {
+  position: absolute;
+  width: 100%;
+  height: 120vh !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://lirtenwebsite.s3.me-south-1.amazonaws.com/trust1.webp');
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+}
+.no-webp .slide1Img {
+  position: absolute;
+  width: 100%;
+  height: 120vh !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://lirtenwebsitepng.s3.me-south-1.amazonaws.com/slide1.png');
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+}
+
+.webp .slide2Img {
+  position: absolute;
+  width: 100%;
+  height: 120vh !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://lirtenwebsite.s3.me-south-1.amazonaws.com/bobian1.webp');
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+}
+.no-webp .slide2Img {
+  position: absolute;
+  width: 100%;
+  height: 120vh !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://lirtenwebsitepng.s3.me-south-1.amazonaws.com/slide2.png');
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+}
+.webp .slide3Img {
+  position: absolute;
+  width: 100%;
+  height: 120vh !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://lirtenwebsite.s3.me-south-1.amazonaws.com/dawoudy1.webp');
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+}
+.no-webp .slide3Img {
+  position: absolute;
+  width: 100%;
+  height: 120vh !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://lirtenwebsitepng.s3.me-south-1.amazonaws.com/slide3.png');
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+}
+.webp .slide4Img {
+  position: absolute;
+  width: 100%;
+  height: 120vh !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://lirtenwebsite.s3.me-south-1.amazonaws.com/businesshub1.webp');
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+}
+
+.no-webp .slide4Img {
+  position: absolute;
+  width: 100%;
+  height: 120vh !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://lirtenwebsitepng.s3.me-south-1.amazonaws.com/slide4.png');
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+}
+.webp .slide5Img {
+  position: absolute;
+  width: 100%;
+  height: 120vh !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://lirtenwebsite.s3.me-south-1.amazonaws.com/locket1.webp');
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+}
+.no-webp .slide5Img {
+  position: absolute;
+  width: 100%;
+  height: 120vh !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://lirtenwebsitepng.s3.me-south-1.amazonaws.com/slide5.png');
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+}
+.slidecaption1 {
+  filter: unset !important;
+  padding-top: 15%;
+  color: #fff;
+}
+
+.slidecaption1 h2 {
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.slidecaption1 h5 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Montserrat';
+
+  font-size: 20px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.slidecaption1 p {
+  font-weight: 500;
+  font-family: 'Montserrat';
+  font-size: 17px;
+}
+.slick-prev {
+  z-index: 100000000000 !important;
+  left: 5% !important;
+  top: 55% !important;
+  color: #fff !important;
+  height: 70px !important;
+  width: 70px !important;
+}
+.slick-next {
+  z-index: 100000000000 !important;
+  right: 5% !important;
+  top: 55% !important;
+  color: #fff !important;
+  height: 70px !important;
+  width: 70px !important;
+}
+
+.slick-next:before {
+  content: '\203A' !important;
+  color: #fff !important;
+  font-size: 70px !important;
+}
+
+.slick-prev:before {
+  content: '\2039' !important;
+  color: #fff !important;
+  font-size: 70px !important;
+}
+
+.webp .slick-dots li button:before {
+  content: url('https://lirtenwebsite.s3.me-south-1.amazonaws.com/indicatoryellow.webp');
+  opacity: 1 !important;
+  height: 100px;
+  width: 100%;
+}
+
+.no-webp .slick-dots li button:before {
+  content: url('https://lirtenwebsitepng.s3.me-south-1.amazonaws.com/indicatoryellow.png');
+  opacity: 1 !important;
+  height: 100px;
+  width: 100%;
+}
+.webp .slick-dots li.slick-active button:before {
+  content: url('https://lirtenwebsite.s3.me-south-1.amazonaws.com/indicatorblue.webp');
+  opacity: 1 !important;
+}
+.no-webp .slick-dots li.slick-active button:before {
+  content: url('https://lirtenwebsitepng.s3.me-south-1.amazonaws.com/indicatorblue.png');
+  opacity: 1 !important;
+}
+
+.slick-dots li {
+  padding: 0 10% !important;
+}
+.slick-dots {
+  bottom: 82% !important;
+  width: 100% !important;
+}
+.carouselline {
+  position: absolute;
+  top: 17%;
+  width: 62%;
+  height: 2px;
+  left: 19%;
+  right: 86%;
+}
+.firstlineheader {
+  position: absolute;
+  top: 19%;
+  left: 18%;
+}
+.secondlineheader {
+  position: absolute;
+  top: 19%;
+  left: 39%;
+}
+/* .thirdlineheader {
+  position: absolute;
+  top: 19%;
+  left: 50%;
+} */
+.fourthlineheader {
+  position: absolute;
+  top: 19%;
+  left: 60%;
+}
+.fifthlineheader {
+  position: absolute;
+  top: 19%;
+  left: 81%;
+}
+
+@media (max-width: 930px) and (min-width: 611px) {
+  .slick-prev {
+    left: -2% !important;
+  }
+  .carouselline {
+    width: 63%;
+  }
+
+  .slidecaption1 {
+    padding-top: 25% !important;
+  }
+  .firstlineheader {
+    left: 17% !important;
+    font-size: 12px !important;
+  }
+  .secondlineheader {
+    left: 38%;
+    font-size: 12px !important;
+  }
+  /* .thirdlineheader {
+    font-size: 12px !important;
+    left: 44%;
+  } */
+  .fourthlineheader {
+    font-size: 12px !important;
+    left: 60%;
+  }
+  .fifthlineheader {
+    font-size: 12px !important;
+    left: 80%;
+  }
+}
+
+@media (max-width: 610px) {
+  .slick-dots,
+  .firstlineheader,
+  .secondlineheader,
+  .thirdlineheader,
+  .fourthlineheader,
+  .fifthlineheader,
+  .carouselline {
+    display: none !important;
+  }
+  .slidecaption1 {
+    filter: unset !important;
+    color: #fff;
+    text-align: center !important;
+  }
+
+  .slidecaption1 h2 {
+    font-size: 20px;
+  }
+
+  .slidecaption1 h5 {
+    font-size: 16px;
+    padding-top: 3%;
+  }
+
+  .slidecaption1 p {
+    font-weight: 400;
+    font-size: 17px;
+    padding-top: 20% !important;
+  }
+  .slick-prev {
+    left: 0% !important;
+    top: 22% !important;
+  }
+  .slick-next {
+    right: 0% !important;
+    top: 22% !important;
+  }
+  .myTitle {
+    text-align: center;
+  }
+}
+
+.caroutitlewhite {
+  color: #fff !important;
+}
+.caroutitleblue {
+  color: #060067 !important;
+  font-weight: bold !important;
+}
+
+@media (max-width: 1080px) and (min-width: 1000px) {
+  .slidecaption1 {
+    padding-top: 50% !important;
+  }
+}
